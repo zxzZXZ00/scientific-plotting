@@ -1,0 +1,52 @@
+style: ../styles/peach-teal.mplstyle
+defaults:
+  template: line
+  palette: user:peach-teal
+  figure:
+    width_mm: 60
+    height_mm: 50
+  labels:
+    x: X
+    y: Y
+  appearance:
+    linewidth: 0.8
+    marker: s
+    markers:
+    - s
+    - ^
+    markerfacecolor: none
+    marker_threshold: 15
+    markersize: 3.2
+    labelsize: 10
+    tick_labelsize: 7
+    max_major_ticks: 5
+    full_frame: true
+    band_alpha: 0.18
+    legend_location: upper right
+  output:
+    formats:
+    - png
+    - svg
+    - pdf
+    dpi: 240
+    transparent: false
+layouts:
+  reviewed-reference:
+    implementation: archived-reference-reconstruction
+    archive: ../examples/peach-teal/
+    script: reproduce.py
+    description: A-H biological scheme and six data panels
+    data_status: visual-estimates-and-simplified-schematics
+    arbitrary_csv_supported: false
+status: user-approved
+approved_on: '2026-10-15'
+applications:
+  recommended:
+  - bio-timecourse
+  - mass-spectrum
+  source:
+    page: 3
+    figure: 2
+    doi: 10.1073/pnas.2317058121
+  reference_error_definition: SE, n=5 biological repeats; not inferred for new data.
+  cross_domain_borrowing: true

@@ -1,0 +1,9 @@
+theme: user:red-cyan
+template: user:red-cyan
+appearance:
+  marker: o
+figure:
+  width_mm: 181.61
+  height_mm: 123.19
+data:
+  path: ../examples/red-cyan/demo.csv

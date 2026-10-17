@@ -1,0 +1,11 @@
+theme: user:peach-teal
+template: line
+data:
+  path: ../examples/peach-teal/demo.csv
+  x: x
+  y: y
+  group: group
+labels:
+  x: X
+  y: Y
+output: {}

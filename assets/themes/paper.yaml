@@ -1,0 +1,23 @@
+style: ../styles/clean-paper.mplstyle
+defaults:
+  template: line
+  palette: blue-red
+  figure:
+    width_mm: 110
+    height_mm: 75
+  labels:
+    x: X
+    y: Y
+  appearance:
+    full_frame: true
+    linewidth: 1.5
+    marker: o
+    band_alpha: 0.18
+    legend_location: upper left
+  output:
+    formats:
+    - png
+    - svg
+    - pdf
+    dpi: 300
+    transparent: false

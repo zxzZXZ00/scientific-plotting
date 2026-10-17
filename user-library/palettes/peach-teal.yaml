@@ -1,0 +1,16 @@
+display_name: 桃橙—青绿
+source: 色系的一致性 ma-et-al-2024-a-hybrid-photocatalytic-system-enables-direct-glucose-utilization-for-methanogenesis.pdf
+page: 3
+figure: 2
+extraction: raster-pixel-observation
+colors:
+- '#F19E65'
+- '#7FBFBB'
+fills:
+- '#F6C5A1'
+- '#C1DFD9'
+note: 位图采样色，可能受压缩和色彩转换影响，不声称作者原始设计色。 正式默认取用户认可复现图使用的桃橙和浅青绿；较深青绿保留为辅助色。
+accents:
+- '#5BADA7'
+status: user-approved
+approved_on: '2026-10-15'

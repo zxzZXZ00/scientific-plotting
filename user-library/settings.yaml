@@ -1,0 +1,11 @@
+# 所有绘图共用的个人设置。
+# default 表示沿用所选主题；具体值覆盖主题默认。
+# 示例：将 dpi 改为 600，所有未单独指定 DPI 的任务都使用 600。
+output:
+  dpi: default
+  transparent: default
+  formats: default
+
+figure:
+  width_mm: default
+  height_mm: default

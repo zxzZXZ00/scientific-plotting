@@ -1,0 +1,56 @@
+style: ../styles/blue-magenta.mplstyle
+defaults:
+  template: line
+  palette: user:blue-magenta
+  figure:
+    width_mm: 60
+    height_mm: 50
+  labels:
+    x: X
+    y: Y
+  appearance:
+    linewidth: 0.8
+    marker: s
+    markers:
+    - s
+    - ^
+    markerfacecolor: none
+    marker_threshold: 15
+    markersize: 3.2
+    labelsize: 10
+    tick_labelsize: 7
+    max_major_ticks: 5
+    full_frame: true
+    band_alpha: 0.18
+    legend_location: upper right
+  output:
+    formats:
+    - png
+    - svg
+    - pdf
+    dpi: 240
+    transparent: false
+layouts:
+  reviewed-reference:
+    implementation: archived-reference-reconstruction
+    archive: ../examples/blue-magenta/
+    script: reproduce.py
+    description: a-d two-column spectra and composition panels
+    data_status: PDF-geometry-not-original-numerical-data
+    arbitrary_csv_supported: false
+status: user-approved
+approved_on: '2026-10-15'
+applications:
+  recommended:
+  - spectrum
+  - composition-comparison
+  source:
+    file: s41929-026-01615-7.pdf
+    page: 3
+    figure: 1
+    doi: 10.1038/s41929-026-01615-7
+  spectra:
+  - XANES
+  - EXAFS Fourier transform
+  - in-situ CO-IR
+  cross_domain_borrowing: true

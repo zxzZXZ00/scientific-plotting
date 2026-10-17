@@ -1,0 +1,7 @@
+type: categorical
+colors:
+  red: '#EF424A'
+  cyan: '#00A6DA'
+  green: '#80BE44'
+  purple: '#8D2695'
+  axis: '#555555'

@@ -1,0 +1,16 @@
+display_name: 雾蓝—玫粉
+source: s41557-026-02243-1.pdf
+page: 3
+figure: 2
+extraction: pdf-vector-rgb
+colors:
+- '#71A9CE'
+- '#FF7DC5'
+- '#00629F'
+- '#C5689B'
+fills:
+- '#F6B6A1'
+- '#BFBFBF'
+note: 从 PDF 图形对象读取 RGB 并量化为十六进制；各色原本分别用于柱体、重复点和辅助系列。
+status: user-approved
+approved_on: '2026-10-15'

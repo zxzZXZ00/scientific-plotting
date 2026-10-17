@@ -1,0 +1,16 @@
+display_name: 蓝—洋红
+source: s41929-026-01615-7.pdf
+page: 3
+figure: 1
+extraction: pdf-vector-rgb
+colors:
+- '#0072B2'
+- '#CC79A7'
+- '#9E3D73'
+- '#377EB8'
+fills:
+- '#CC79A7'
+- '#377EB8'
+note: 这些颜色来自不同系列/填充对象，不能把图形出现次数当作语义重要程度。
+status: user-approved
+approved_on: '2026-10-15'

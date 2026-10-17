@@ -1,0 +1,47 @@
+{
+  "status": "user-approved",
+  "approved_on": "2026-10-15",
+  "user_message": "现在可以写入了",
+  "approved_revision": "Arial upright, complete formulas, one closed frame, legends inside with headroom",
+  "sha256": {
+    "reference.png": "7e3315eae6b6d5b8464805c450c0f8941736ab83e0ccb70b82a85d8046703852",
+    "reproduction.png": "aeb1211f377ccc2c5e5b5d155ab0c655d74d8da0b5469d78a72fcb9374f5ee63",
+    "reproduction.svg": "1036a4e250ab884cf860d87b8d6329f1479a522415d4f12e5e8319cb92e4469f",
+    "reproduce.py": "deaa510414ab1ebe2f55feefae8828cab5a57079f92f893b1f7f2973ecaf64af",
+    "layout-checks.json": "c322f571eeb18f81573afccf553fffa1b457db1caeb84eccc68c9e0cf8772b90",
+    "blue-magenta.yaml": "c550878e98356b31ab1f391b3ed26d483a32a6fe993e53f9ba636cbd45b3517e",
+    "blue-magenta.mplstyle": "b5504424489a1a30e0aba9b67251254cae76e9138fb543e32184143639623996"
+  },
+  "validation": {
+    "portable_reproduction_png_matches": true,
+    "generic_csv_render_passed": true,
+    "layout_checks_passed": true
+  },
+  "reviewed_snapshot_sha256": {
+    "reference.png": "7e3315eae6b6d5b8464805c450c0f8941736ab83e0ccb70b82a85d8046703852",
+    "reproduction.png": "aeb1211f377ccc2c5e5b5d155ab0c655d74d8da0b5469d78a72fcb9374f5ee63",
+    "reproduction.svg": "1036a4e250ab884cf860d87b8d6329f1479a522415d4f12e5e8319cb92e4469f",
+    "reproduce.py": "0911bf91f50bc448ea5652fc0ec3d68bdec9dcbafe38a012cc5a79f6166c5f16",
+    "layout-checks.json": "c322f571eeb18f81573afccf553fffa1b457db1caeb84eccc68c9e0cf8772b90",
+    "blue-magenta.yaml": "ae0bd45802ff1a4871ddd5d00dab402f11d7192f22743e9bc3e4480bdd6cb23b",
+    "blue-magenta.mplstyle": "b5504424489a1a30e0aba9b67251254cae76e9138fb543e32184143639623996"
+  },
+  "runtime_maintenance": {
+    "date": "2026-10-15",
+    "reason": "User requested portable workspace sci_plots/png, svg, pdf exports, registered resources and installation instructions",
+    "reviewed_png_unchanged": true
+  },
+  "packaging": {
+    "profile": "lightweight",
+    "reviewed_visual_unchanged": true,
+    "static_files_archived_outside_skill": [
+      "reference.png",
+      "comparison.png",
+      "reproduction.svg",
+      "preview.svg",
+      "source-vector.svg",
+      "b-detail.png"
+    ],
+    "note": "Only applicable historical files were archived; PNG previews, runtime dependencies, source descriptions and original approval hashes remain. Missing historical exports are intentional, not runtime dependencies."
+  }
+}

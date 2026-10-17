@@ -1,0 +1,10 @@
+Figure 2 | Evaluation of visible light PHE performances of BOC-MS. (a) A typical GC signal of H2 formed from BOC-MS involved PHE system. (b) Cycling
+tests of PHE over BOC-MS and 1L-BOC. Reaction conditions: 10 mg catalysts; 0.3 mol l  1 ascorbic acid; visible light (l4420 nm). The reaction cell was
+evacuated each 10 h without renewing ascorbic acid solution. (c) EPR spectra of 1L-BOC and BOC-MS. (d) 13C NMR spectra of the solutions containing
+BOC-MS and ascorbic acid after 0, 45 and 90 h of PHE experiments. (e) DOS and (f) Mott–Schottky plots of 1L-BOC and 1L-MS. (g) Surface photovoltage
+spectroscopy of 1L-BOC, 1L-MS and BOC-MS. (h) Ultraviolet–visible diffuse reﬂectance spectrum of BOC-MS, 1L-BOC and 1L-MS, and PHE quantum yields
+of BOC-MS plotted as a function of wavelength of the incident light. (i) Band alignments in 1L-BOC and 1L-MS.
+ARTICLE
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms11480
+4
+NATURE COMMUNICATIONS | 7:11480 | DOI: 10.1038/ncomms11480 | www.nature.com/naturecommunications

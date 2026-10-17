@@ -1,0 +1,63 @@
+style: ../styles/red-cyan.mplstyle
+defaults:
+  template: line
+  palette: user:red-cyan
+  figure:
+    width_mm: 60
+    height_mm: 50
+  labels:
+    x: X
+    y: Y
+  appearance:
+    linewidth: 0.8
+    marker: s
+    markers:
+    - s
+    - ^
+    markerfacecolor: none
+    marker_threshold: 15
+    markersize: 3.2
+    labelsize: 10
+    tick_labelsize: 7
+    max_major_ticks: 5
+    full_frame: true
+    band_alpha: 0.18
+    legend_location: upper right
+  output:
+    formats:
+    - png
+    - svg
+    - pdf
+    dpi: 240
+    transparent: false
+layouts:
+  reviewed-composite:
+    template: user:red-cyan
+    source: Figure 2
+    panels:
+    - a
+    - b
+    - c
+    - d
+    - e
+    - f
+    - g
+    - h
+    - i
+    rows: 3
+    implementation: fixed-reviewed-layout
+    b_axis: single-frame-piecewise-transform
+status: user-approved-v2
+applications:
+  recommended:
+  - chromatography
+  - red-cyan-spectrum
+  - photocatalysis-cycles
+  source:
+    file: 配色参考1.pdf
+    page: 4
+    figure: 2
+    doi: 10.1038/ncomms11480
+  note: Visual borrowing is allowed across fields; reference data and band/axis structure
+    are not generic defaults.
+  cross_domain_borrowing: true

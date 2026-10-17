@@ -1,0 +1,17 @@
+name: reference1-red-cyan-candidate
+status: draft
+source: 配色参考1.pdf, page 4, Figure 2
+style: style.mplstyle
+palette: palette.yaml
+defaults:
+  template: reproduce.py
+  output:
+    width_in: 7.15
+    height_in: 4.85
+    dpi: 240
+    transparent: false
+layout:
+  panels: [a, b, c, d, e, f, g, h, i]
+  rows: 3
+  shared_legend: false
+data_status: synthetic visual demonstration; not original experimental measurements

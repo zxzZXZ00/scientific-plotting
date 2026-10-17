@@ -1,0 +1,5 @@
+# Tested together with CPython 3.12.10, Windows 11 x64.
+matplotlib==3.11.2
+numpy==2.5.2
+PyYAML==6.0.3
+PyMuPDF==1.28.2

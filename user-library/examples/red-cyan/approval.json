@@ -1,0 +1,49 @@
+{
+  "status": "approved",
+  "version": "v2-b-axis-fixed",
+  "approved_date": "2026-10-15",
+  "approval_text": "可以，归入吧",
+  "thread_id": "01a134da-72b9-7ad1-bb29-b4bc5af74f56",
+  "source": "配色参考1.pdf, page 4, Figure 2",
+  "data_status": "synthetic-demo",
+  "files": {
+    "reproduce.py": "587f76676e5cb04baeda7ecfad6dffbdfb4c64aacda749e9e6168ccad18b425b",
+    "theme.yaml": "b44de82f2aba85c984d7af654d2d44496b4a5dfbae10bd9a42b130f735c3566d",
+    "palette.yaml": "1cab2180ab3dbea9a1fecbf0e7b4c8796c8448610922d36686fda442bf9ba9ea",
+    "style.mplstyle": "445d426f2b7453777856f7706ea170b8d578c1bc4010ff8c13c36f6b61f75824",
+    "demo.csv": "a8facf153c2933bb022aee1fba473494cc57a8fcbfe6a19831ffdd32deae71a2",
+    "reference.png": "872468b7eec5bc87caeba8419a6b577530ad7e80f815465315eb38f4fc6e3fe7",
+    "reproduction.png": "83d1d32130132828321de6b6972830b66b1310f0aa72d094fedcb4a23190062e",
+    "reproduction.svg": "1e96a5fc1b481bb2dbca7b43c10eda50faa81c51e7e29cf061ea412affd5cfcc",
+    "review.md": "9c159ae353cc8f22c666488da5395e95ebf92dd1d75fbb3e05b5d2471c4fa436"
+  },
+  "reviewed_snapshot_sha256": {
+    "reproduce.py": "476db46fa14c7c3fa2417c3219c0975ce654779cb2ea8cb2fee7d72a142dde8a",
+    "theme.yaml": "b44de82f2aba85c984d7af654d2d44496b4a5dfbae10bd9a42b130f735c3566d",
+    "palette.yaml": "1cab2180ab3dbea9a1fecbf0e7b4c8796c8448610922d36686fda442bf9ba9ea",
+    "style.mplstyle": "445d426f2b7453777856f7706ea170b8d578c1bc4010ff8c13c36f6b61f75824",
+    "demo.csv": "a8facf153c2933bb022aee1fba473494cc57a8fcbfe6a19831ffdd32deae71a2",
+    "reference.png": "872468b7eec5bc87caeba8419a6b577530ad7e80f815465315eb38f4fc6e3fe7",
+    "reproduction.png": "83d1d32130132828321de6b6972830b66b1310f0aa72d094fedcb4a23190062e",
+    "reproduction.svg": "1e96a5fc1b481bb2dbca7b43c10eda50faa81c51e7e29cf061ea412affd5cfcc",
+    "review.md": "9c159ae353cc8f22c666488da5395e95ebf92dd1d75fbb3e05b5d2471c4fa436"
+  },
+  "runtime_maintenance": {
+    "date": "2026-10-15",
+    "reason": "User requested portable workspace sci_plots/png, svg, pdf exports, registered resources and installation instructions",
+    "reviewed_png_unchanged": true
+  },
+  "packaging": {
+    "profile": "lightweight",
+    "reviewed_visual_unchanged": true,
+    "static_files_archived_outside_skill": [
+      "reference.png",
+      "comparison.png",
+      "reproduction.svg",
+      "preview.svg",
+      "source-vector.svg",
+      "b-detail.png"
+    ],
+    "note": "Only applicable historical files were archived; PNG previews, runtime dependencies, source descriptions and original approval hashes remain. Missing historical exports are intentional, not runtime dependencies."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "checked_text_objects": 97,
+  "checked_frames": 6,
+  "checked_errorbar_segments": 0,
+  "limits": "Does not establish data accuracy, semantic equivalence, or every visual collision; inspect PNG too."
+}

@@ -1,0 +1,11 @@
+theme: user:mist-blue-rose
+template: line
+data:
+  path: ../examples/mist-blue-rose/demo.csv
+  x: x
+  y: y
+  group: group
+labels:
+  x: X
+  y: Y
+output: {}

@@ -1,0 +1,8 @@
+type: categorical
+colors: ['#EF424A', '#00A6DA', '#80BE44', '#8D2695']
+roles:
+  primary: '#EF424A'
+  comparison: '#00A6DA'
+  auxiliary-green: '#80BE44'
+  auxiliary-purple: '#8D2695'
+  axis: '#555555'

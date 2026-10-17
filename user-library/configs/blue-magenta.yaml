@@ -1,0 +1,11 @@
+theme: user:blue-magenta
+template: line
+data:
+  path: ../examples/blue-magenta/demo.csv
+  x: x
+  y: y
+  group: group
+labels:
+  x: X
+  y: Y
+output: {}

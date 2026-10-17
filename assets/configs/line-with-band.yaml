@@ -1,0 +1,28 @@
+template: line-with-band
+style: ../styles/clean-paper.mplstyle
+data:
+  path: ../examples/line-with-band/demo.csv
+  x: time
+  y: mean
+  lower: lower
+  upper: upper
+  group: method
+figure:
+  width_mm: 110
+  height_mm: 75
+labels:
+  x: Time (s)
+  y: Response (a.u.)
+appearance:
+  colors:
+  - '#4477AA'
+  - '#EE6677'
+  linewidth: 1.5
+  band_alpha: 0.18
+  legend_location: upper left
+output:
+  formats:
+  - png
+  - svg
+  - pdf
+  dpi: 300
